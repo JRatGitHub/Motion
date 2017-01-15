@@ -1,12 +1,6 @@
 {
-    "elements":
-            [
-                { "type": "Label", "label": "Intervall für die Aktualisierung aller Daten:" },
-                { "type": "IntervalBox", "name": "Intervall", "caption": "Secunden" }           
-            ],
-    "actions":
-            [
-                { "type": "Button", "label": "Update", "onClick": "IPSBananaPi_Update($id);" }
-            ]
-   
+  "elements": [
+    { "name": "Mac", "type": "ValidationTextBox", "caption": "Mac" },
+    { "name": "ScanInterval", "type": "IntervalBox", "caption": "Sekunden" }
+  ]
 }

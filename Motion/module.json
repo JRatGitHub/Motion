@@ -1,14 +1,11 @@
 {
-    "id": "{5a2202e4-a532-4c90-b1ba-a92826c72ca5}",
-    "name": "Motion",
-    "type": 0,
-    "vendor": "JR",
-    "aliases": 
-    [
-        "Motion"
-    ],
-    "parentRequirements": [],
-    "childRequirements": [],
-    "implemented": [],
-    "prefix": "Motion"
+  "id": "{ea890f33-a139-4348-8616-c2e254e1a47e}",
+  "name": "MotionDevice",
+  "type": 3,
+  "vendor": "JR",
+  "aliases": [ "Motion Detection Device" ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "JRMD"
 }
