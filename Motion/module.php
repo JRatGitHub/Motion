@@ -1,5 +1,5 @@
 <?php
-class BTPDevice extends IPSModule {
+class MotionDevice extends IPSModule {
 
   public function Create() {
     parent::Create();
