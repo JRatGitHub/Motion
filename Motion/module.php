@@ -16,7 +16,8 @@ class MotionDevice extends IPSModule {
     $presentId = $this->RegisterVariableInteger('PRESENT_SINCE', 'Anwesend seit', '~UnixTimestamp', 3);
     $absentId = $this->RegisterVariableInteger('ABSENT_SINCE', 'Abwesend seit', '~UnixTimestamp', 3);
     $nameId = $this->RegisterVariableString('NAME', 'Name', '', 2);
-
+    $SourceID = $this->RegisterPropertyString('MotionID', '');
+   
     IPS_SetIcon($this->GetIDForIdent('STATE'), 'Motion');
     IPS_SetIcon($this->GetIDForIdent('NAME'), 'Keyboard');
     IPS_SetIcon($this->GetIDForIdent('PRESENT_SINCE'), 'Clock');
