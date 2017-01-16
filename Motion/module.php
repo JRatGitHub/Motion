@@ -3,6 +3,7 @@ class MotionDevice extends IPSModule {
 
   public function Create() {
     parent::Create();
+    $this->RegisterPropertyString('MotionID', '');
     $this->RegisterPropertyString('Mac', '');
     $this->RegisterPropertyInteger('ScanInterval', 60);
   }
