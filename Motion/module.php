@@ -15,6 +15,7 @@ class MotionDevice extends IPSModule {
     $stateId = $this->RegisterVariableBoolean('STATE', 'Zustand', '~Presence', 1);
     $presentId = $this->RegisterVariableInteger('PRESENT_SINCE', 'Anwesend seit', '~UnixTimestamp', 3);
     $absentId = $this->RegisterVariableInteger('ABSENT_SINCE', 'Abwesend seit', '~UnixTimestamp', 3);
+    $LastMotionId = $this->RegisterVariableInteger('LastMotion', 'Laatste beweging', '~UnixTimestamp', 3);
     $nameId = $this->RegisterVariableString('NAME', 'Name', '', 2);
     $SourceID = $this->RegisterPropertyString('MotionID', '');
    
