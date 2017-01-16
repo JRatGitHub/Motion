@@ -1,7 +1,5 @@
 {
   "elements": [
-    { "name": "Mac", "type": "ValidationTextBox", "caption": "Mac" },
-    { "name": "ScanInterval", "type": "IntervalBox", "caption": "Sekunden" },
-    { "type": "SelectVariable", "name": "PropertyVariableID", "caption": "Target" }
+    { "type": "SelectObject", "name": "MotionID", "caption": "Motion source" }
   ]
 }
